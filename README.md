@@ -14,7 +14,7 @@ Released under the MIT License. Please see the LICENSE file.
 
 ### Credits
 BalkanBuzz.net
-[Git](https://github.com/ahmic/flarum-ext-bosanski.git)
+[Git](https://github.com/neercsys/flarum-ext-bosanski.git)
 
 ### Installation
 
