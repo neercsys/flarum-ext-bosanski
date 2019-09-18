@@ -13,8 +13,9 @@ Bosnian language for Flarum Extensions
 Released under the MIT License. Please see the LICENSE file.
 
 ### Credits
-BalkanBuzz.net
-[Git](https://github.com/neercsys/flarum-ext-bosanski.git)
+BalkanBuzz.net</br>
+[Git](https://github.com/neercsys/flarum-ext-bosanski.git)</br>
+[Packagist](https://packagist.org/packages/neercsys/flarum-ext-bosanski)
 
 ### Installation
 
