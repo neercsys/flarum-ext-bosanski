@@ -4,6 +4,7 @@
 	"keywords": [
 		"flarum",
 		"extension",
+		"bosnian",
 		"bosanski",
 		"locale",
 		"translation"
@@ -25,10 +26,10 @@
 			"title": "Bosnian Extended Pack",
 			"icon": {
 				"name": "fas fa-language",
-				"background": "#ff3838",
+				"background": "#346eeb",
 				"backgroundSize": "cover",
 				"backgroundPosition": "center",
-				"color": "#f5f5f5"
+				"color": "#e9f01d"
 			}
 		},
 		"flarum-locale": {
