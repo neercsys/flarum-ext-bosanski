@@ -11,11 +11,11 @@ saleksin-auth-google:
     google_settings:
       client_id_label: App ID
       client_secret_label: App Secret
-      title: Google Settings
+      title: Google Postavke
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      with_google_button: Log In with Google
+      with_google_button: Prijavi se sa Google
