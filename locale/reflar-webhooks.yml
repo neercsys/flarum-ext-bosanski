@@ -1,36 +1,36 @@
 reflar-webhooks:
   actions:
     discussion:
-      started: "Started discussion `{1}`"
+      started: "Je započeo/la diskusiju `{1}`"
       renamed:
-        title: "Renamed discussion `{1}`"
-        description: "New title: {1}"
-      hidden: "Hid discussion `{1}`"
-      restored: "Restored discussion `{1}`"
-      deleted: "Deleted discussion `{1}`"
+        title: "Preimenovana rasprava `{1}`"
+        description: "Novi naslolv: {1}"
+      hidden: "Skrivena rasprava `{1}`"
+      restored: "Vraćena diskusija `{1}`"
+      deleted: "Izbrisana rasprava `{1}`"
 
     group:
-      created: "Created `{1}` group"
-      renamed: "Renamed a group to `{1}`"
-      deleted: "Deleted `{1}` group"
+      created: "Kreira `{1}` grupu"
+      renamed: "Preimenovao/la je grupu u `{1}`"
+      deleted: "Izbrisao/la `{1}` grupu"
 
     post:
-      posted: "New post in `{1}`"
-      revised: "Edited post in `{1}`"
-      hidden: "Hid post in `{1}`"
-      restored: "Restored post in `{1}`"
-      deleted: "Deleted post in `{1}`"
+      posted: "Nova objava u `{1}`"
+      revised: "Uređena objava u `{1}`"
+      hidden: "Skrivena objava u `{1}`"
+      restored: "Vraćen je post u `{1}`"
+      deleted: "Obrisana objava u `{1}`"
 
     user:
-      registered: New user registered
+      registered: Novi korisnik se reigstrovao
       renamed:
-        title: "Changed username of `{1}`"
-        description: "New username: {1}"
-      deleted: "Deleted user `{1}`"
+        title: "Promijenjeno korisničko ime za `{1}`"
+        description: "Novo korisničko ime: {1}"
+      deleted: "Izbrisani korisnik `{1}`"
 
   adapters:
     errors:
-      404: Webhook Not Found
+      404: Webhook nije pronađen
 
   admin:
     errors:
@@ -58,39 +58,39 @@ reflar-webhooks:
       actions:
         flarum:
           discussion:
-            title: Flarum Discussion
+            title: BalkanBuzz Diskusije
 
-            started: Started
+            started: Započeto
             renamed: => reflar-webhooks.ref.renamed
             hidden: => reflar-webhooks.ref.hidden
             restored: => reflar-webhooks.ref.restored
             deleted: => reflar-webhooks.ref.deleted
 
           group:
-            title: Flarum Group
+            title: BBuzz Grupe
 
-            created: Created
+            created: Kreirano
             renamed: => reflar-webhooks.ref.renamed
             deleted: => reflar-webhooks.ref.deleted
 
           post:
-            title: Flarum Post
+            title: BBuzz postovi
 
-            posted: Posted
-            revised: Edited
+            posted: Objavljeno
+            revised: Uređeno
             hidden: => reflar-webhooks.ref.hidden
             restored: => reflar-webhooks.ref.restored
             deleted: => reflar-webhooks.ref.deleted
 
           user:
-            title: Flarum User
+            title: BBuzz Korisnici
 
-            registered: Registered
+            registered: Registrovan
             renamed: => reflar-webhooks.ref.renamed
             deleted: => reflar-webhooks.ref.deleted
 
   ref:
-    deleted: Deleted
-    hidden: Hidden
-    renamed: Renamed
-    restored: Restored
+    deleted: Izbrisan
+    hidden: Skriveno
+    renamed: Preimenovano
+    restored: Vraćeno
