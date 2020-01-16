@@ -2,9 +2,8 @@
 Bosnian language for Flarum Extensions
 
 ### Version
-- Current v0.13
-- 0.10
-- Released on September 18, 2019
+- v0.10 Released on September 18, 2019 
+- v0.14 Current
 
 ### Compatibility:
 - Flarum (Core v0.1.0-beta.9)
