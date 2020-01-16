@@ -2,7 +2,7 @@
 Bosnian language for Flarum Extensions
 
 ### Version
-
+- Current v0.13
 - 0.10
 - Released on September 18, 2019
 
@@ -26,4 +26,4 @@ via Composer: `composer require neercsys/flarum-ext-bosanski`
 via Composer: `composer update`
 
 ### Last modified
-Zadnja izmjena: 18.09.2019
+Zadnja izmjena: 16.01.2020
