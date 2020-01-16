@@ -1,0 +1,45 @@
+fof-byobu:
+    forum:
+        badges:
+            is_private:
+                tooltip: Privatna diskusija
+        buttons:
+            add_recipients: Sudionici
+            submit: OK
+            edit_recipients: Uredi sudionike
+            send_pd: "Pošalji {username} poruku"
+        labels:
+            recipients: "{count} primatelj|{count} primatelja"
+            user_deleted: -deleted-
+        nav:
+            private_discussions: Privatna diskusija
+        input:
+            search_recipients: Pretraživanje primatelja upišite prva tri znaka...
+        search:
+            headings:
+                groups: Grupna dopuštenja
+        modal:
+            titles:
+                update_recipients: Ažurirani sudionici od {title}
+                add_recipients: Dodajte primatelje u svoju raspravu
+        post:
+            recipients_modified:
+                added_and_removed: "{username} je dodao/la sudionika {added} i uklonio/la {removed}."
+                added: "{username} dodao sudionika {added}."
+                removed: "{username} je uklonio/la sudionika {removed}."
+        user:
+            settings:
+                block_pd: Blokirajte privatne rasprave
+
+            byobu_link: Privatne diskusije
+
+    admin:
+        permission:
+            create_private_discussions_with_users: Stvarajte privatne rasprave s korisnicima
+            create_private_discussions_with_groups: Stvorite privatne rasprave s grupama
+            create_private_discussions_with_blocking_users: Stvorite privatne rasprave s korisnicima koji su je blokirali
+            edit_user_recipients: Uredite korisnike koji sudjeluju u privatnim raspravama
+            edit_group_recipients: Uređivanje grupa koje sudjeluju u privatnim raspravama
+
+        settings:
+            byobu_users_page_label: Dodajte privatnu raspravu na korisničku stranicu
