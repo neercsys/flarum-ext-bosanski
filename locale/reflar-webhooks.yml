@@ -34,22 +34,22 @@ reflar-webhooks:
 
   admin:
     errors:
-      service_not_found: The service '{service}' cannot be found.
-      url_invalid: URL is not valid for selected service.
+      service_not_found: Servis '{service}' nemože biti pronađen.
+      url_invalid: URL ne vrijedi za odabranu uslugu.
 
     nav:
-      desc: Customizable outgoing webhooks for your forum.
+      desc: Prilagodljivi odlazni webhook za vaš forum.
     settings:
       title: Webhooks
 
       help:
-        disabled: This webhook is disabled because it doesn't have any events enabled.
-        general: Here you can add, edit, and remove webhooks from your forum.
-        url: The webhook's endpoint to be executed
+        disabled: Ovaj webhook je onemogućen jer nije omogućen nijedan događaj.
+        general: Ovdje možete dodati, urediti i ukloniti webhook sa vašeg foruma.
+        url: Krajnja tačka webhoka koja se izvršava
 
       modal:
-        title: Webhook Settings
-        description: Here you modify what events the webhook is fired on.
+        title: Webhook Postavke
+        description: Ovdje možete izmijeniti događaje koji će pokrenuti webhook.
 
       services:
         discord: Discord
@@ -58,7 +58,7 @@ reflar-webhooks:
       actions:
         flarum:
           discussion:
-            title: BalkanBuzz Diskusije
+            title: Forum diskusije
 
             started: Započeto
             renamed: => reflar-webhooks.ref.renamed
@@ -67,14 +67,14 @@ reflar-webhooks:
             deleted: => reflar-webhooks.ref.deleted
 
           group:
-            title: BBuzz Grupe
+            title: Forum Grupe
 
             created: Kreirano
             renamed: => reflar-webhooks.ref.renamed
             deleted: => reflar-webhooks.ref.deleted
 
           post:
-            title: BBuzz postovi
+            title: Forum postovi
 
             posted: Objavljeno
             revised: Uređeno
@@ -83,7 +83,7 @@ reflar-webhooks:
             deleted: => reflar-webhooks.ref.deleted
 
           user:
-            title: BBuzz Korisnici
+            title: Forum Korisnici
 
             registered: Registrovan
             renamed: => reflar-webhooks.ref.renamed
