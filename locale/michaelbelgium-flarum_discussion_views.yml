@@ -8,10 +8,19 @@ flarum_discussion_views:
   forum:
     modal_resetviews:
       title: Poništi broj pregleda diskusije
-      submit: Potvrdi
-      label: Postavite za broj prikaza
+      submit: Da, ukloni sve
+      label: Ovo će ukloniti {count} pregleda na ovu diskusiju. Nastaviti?|Ovo će ukloniti {count} pregleda na ovoj diskusiji. Nastaviti?
     discussion_controls:
-      resetviews_button: Postavi broj prikaza
+      resetviews_button: Resetuj preglede
+    viewlist:
+      title: Najnoviji gledatelji
   admin:
       permissions:
-          reset_views_label: Postavljanje pogleda rasprave
+        reset_views_label: Postavi broj pregleda diskusije
+      settings:
+        title: Postavke pregleda diskusija
+        track_unique: Pratite jedinstvene poglede
+        abbr_numbers: Skraćeni brojevi prikaza
+        show_filter: Omogući (ne) popularno polje sortiranja
+        max_viewcount: Najveći broj stavki za prikaz
+        show_viewlist: Omogući popis gledatelja
