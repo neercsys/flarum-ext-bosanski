@@ -24,5 +24,6 @@ fof-best-answer:
       awarded: Vaš je odgovor postavljen kao najbolji odgovor od strane {username}
       awarded_email: Vaš je post postavljen kao najbolji odgovor od strane korisnika
       select_email_title: Jeste li uspjeli riješiti svoj problem?
+      
       preferences:
-      awarde_best_answer: Kad neko postavi moj post kao najbolji odgovor
+        awarded_best_answer: Kad neko postavi moj post kao najbolji odgovor
