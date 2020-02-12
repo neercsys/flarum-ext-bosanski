@@ -7,6 +7,11 @@ fof-best-answer:
       title: Najbolji odgovor Postavke
       allow_select_own_post: Dopustite korisniku da odabere vlastiti post
       select_best_answer_reminder_days: Podsjetite korisnika da odabere najbolji odgovor nakon X dana
+      schedule_on_one_server: Koristi 'onOneServer()' za planiranje zadatka (zahtjeva Redis/Memcache)
+      schedule_stop_overnight: Spriječite da se planer podsjećanja pokrene tijekom nesocijalnih sati (17h - 8h vrijeme poslužitelja)
+      schedule_log_output: Dodajte izlaz planera u pohranu zapisa
+      remind_tag_ids: Da biste ograničili podsjetnike na određene oznake, ovdje unesite ID-ove oznaka (odvojene zarezima)
+      use_alt_ui: Koristite alternativni izgled (najbolji odgovor gumb u podnožju posta)
   forum:
     answered_badge: Odgovoreno
     this_best_answer: Odaberi najbolji odgovor
@@ -16,3 +21,8 @@ fof-best-answer:
 
     notification:
       content: Molimo odaberite najbolji odgovor ako je na vaše pitanje odgovoreno
+      awarded: Vaš je odgovor postavljen kao najbolji odgovor od strane {username}
+      awarded_email: Vaš je post postavljen kao najbolji odgovor od strane korisnika
+      select_email_title: Jeste li uspjeli riješiti svoj problem?
+      preferences:
+      awarde_best_answer: Kad neko postavi moj post kao najbolji odgovor
