@@ -3,9 +3,9 @@ fof-stopforumspam:
     settings:
       title: FriendsOfFlarum Stop Forum Spam
 
-      username_label: Username Spam Check
-      ip_label: IP Address Spam Check
-      email_label: Email Spam Check
+      username_label: Provjeri spam za korisničko ime
+      ip_label: Provjeri IP adresu za spam
+      email_label: Provjeri email za spam
 
       frequency_label: Prag
       frequency_text: Broj izvješća o spam prijavi između svih omogućenih provjera koje će pokrenuti spam filtar.
