@@ -1,39 +1,39 @@
 fof-username-request:
   admin:
     permissions:
-      start: Request username change
-      moderate: Approve username change requests
+      start: Zatražite promjenu korisničkog imena
+      moderate: Odobriti zahtjeve za promjenu korisničkog imena
   forum:
     action:
       title: => fof-username-request.forum.results.title
-      help_text: Please make sure that this requested username change follows the forum guidelines.
-      decision_title: Decision
-      approval_label: Approve
-      rejected_label: Reject
-      submit_button: Submit
-      reason_title: Reason for Rejection
-      success: Decision sent.
-      name: '{username} has requested to change their username to "{newUsername}"'
+      help_text: Molimo provjerite da li tražena promjena korisničkog imena slijedi smjernice foruma.
+      decision_title: Odluka
+      approval_label: Odobriti
+      rejected_label: Odbiti
+      submit_button: Podnesi
+      reason_title: Razlog odbijanja
+      success: Odluka je poslana.
+      name: '{username} je zatražio da promjeni svoje korisničko ime u "{newUsername}"'
     results:
-      title: Username Change Request
-      approved: 'Your username change request has been approved'
-      new_username: 'Your username has been successfully changed to: {username}'
-      rejected: Your username change request was rejected
-      reason: 'Reason for rejection: <i>"{reason}"</i>.'
-      resubmit: At this time you may resubmit a new username change request from your account settings if you so choose to.
+      title: Zahtjev za promjenu korisničkog imena
+      approved: 'Vaš zahtjev za promjenu korisničkog imena je odobren'
+      new_username: 'Vaše korisničko ime uspješno je promijenjeno u: {username}'
+      rejected: Vaš zahtjev za promjenu korisničkog imena je odbijen
+      reason: 'Razlog odbijanja: <i>"{reason}"</i>.'
+      resubmit: Trenutno možete ponovo poslati novi zahtjev za promjenu korisničkog imena iz postavki svog računa ako to želite.
     request:
-      title: Request Username Change
-      current_request: You have already requested to change your username to "{username}". You can either update your request or delete it.
-      submit_button: Submit Request
-      delete_button: Delete Request
-      confirmation_message: Your username change request has been submitted and is pending approval.
+      title: Zatražite promjenu korisničkog imena
+      current_request: Već ste zatražili da promijenite svoje korisničko ime u "{username}". Možete ažurirati svoj zahtjev ili ga izbrisati.
+      submit_button: Pošaljite zahtjev
+      delete_button: Izbriši zahtjev
+      confirmation_message: Vaš zahtjev za promjenu korisničkog imena poslan je i čeka odobrenje.
       dismiss_button: => core.ref.okay
-      deleted: Username request deleted.
-    account_label: Change Username
-    profile_link: Username History
+      deleted: Zahtjev za korisničko ime je izbrisan.
+    account_label: Promijenite korisničko ime
+    profile_link: Historija imena
     dropdown:
-      empty_text: No username change requests found.
+      empty_text: Nije pronađen nijedan zahtjev za promjenu korisničkog imena.
       tooltip: => fof-username-request.forum.dropdown.title
-      title: Username Change Requests
-      item_text: "{username} requested a username change"
-      exerpt: "Requested username: {requestedUsername}"
+      title: Zahtjevi za promjenu korisničkog imena
+      item_text: "{username} je zatražio/la promjenu korisničkog imena."
+      exerpt: "Traženo korisničko ime: {requestedUsername}"
