@@ -8,11 +8,16 @@ fof-byobu:
             submit: OK
             edit_recipients: Uredi sudionike
             send_pd: "Pošalji {username} poruku"
+            cancel: Otkaži
+        composer_private_discussion:
+            submit_button: Objavi privatnu diskusiju
+            title_placeholder: Naslov privatne diskusije         
         labels:
             recipients: "{count} primatelj|{count} primatelja"
             user_deleted: -deleted-
         nav:
             private_discussions: Privatna diskusija
+            start_button: Nova privatna diskusija
         input:
             search_recipients: Pretraživanje primatelja upišite prva tri znaka...
         search:
@@ -22,6 +27,9 @@ fof-byobu:
             titles:
                 update_recipients: Ažurirani sudionici od {title}
                 add_recipients: Dodajte primatelje u svoju raspravu
+            help:
+                add_recipients: Ova će rasprava biti vidljiva samo korisnicima koje odaberete ovdje. Potreban je najmanje 1 primatelj (osim sebe)
+                update_recipients: Ova će rasprava biti vidljiva samo korisnicima koje odaberete ovdje.
         post:
             recipients_modified:
                 added_and_removed: "{username} je dodao/la sudionika {added} i uklonio/la {removed}."
@@ -29,17 +37,31 @@ fof-byobu:
                 removed: "{username} je uklonio/la sudionika {removed}."
         user:
             settings:
-                block_pd: Blokirajte privatne rasprave
+                block_pd: Blokirajte privatne diskusije
 
             byobu_link: Privatne diskusije
+            dropdown_label: Privatne diskusije
+            
+        notifications:
+            pd_label: Netko me uključuje u novu privatnu diskusiju
+            pd_reply_label: Netko objavljuje u privatnoj diskusiji čiji sam primatelj
+            pd_reply_text: "{username} je objavio/la u privatnoj diskusiji čiji ste dio"
+            pd_text: "{username} je započeo/la novu privatnu diskusiju s vama"
 
     admin:
         permission:
-            create_private_discussions_with_users: Stvarajte privatne rasprave s korisnicima
-            create_private_discussions_with_groups: Stvorite privatne rasprave s grupama
-            create_private_discussions_with_blocking_users: Stvorite privatne rasprave s korisnicima koji su je blokirali
+            create_private_discussions_with_users: Stvarajte privatne diskusije s korisnicima
+            create_private_discussions_with_groups: Stvorite privatne diskusije s grupama
+            create_private_discussions_with_blocking_users: Stvorite privatne diskusije s korisnicima koji su je blokirali
             edit_user_recipients: Uredite korisnike koji sudjeluju u privatnim raspravama
             edit_group_recipients: Uređivanje grupa koje sudjeluju u privatnim raspravama
+            view_private_discussions-when-flagged: Pogledajte privatne diskusije drugih korisnika ako su označene
 
         settings:
-            byobu_users_page_label: Dodajte privatnu raspravu na korisničku stranicu
+            nothing_here: Ovdje još nema šta vidjeti
+
+    notifications:
+        private_discussion_created:
+            title: "[Private Discussion] korisnik je započeo/la s vama novu privatnu diskusiju"
+        private_discussion_replied:
+            title: "[Private Discussion] korisnik je objavio u privatnoj diskusiji"
