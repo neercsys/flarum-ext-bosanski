@@ -1,7 +1,7 @@
 the-turk-diff:
     forum:
         differences:                Razlike
-        revisionInfo:               "Edited {revisionCount} time, newest at the top|Edited {revisionCount} times, newest at the top"
+        revisionInfo:               "Uređivano {revisionCount} puta, najnovije na vrhu|Uređivano {revisionCount} puta, najnovije na vrhu"
         emptyText:                  Nema revizija
         confirmDelete:              Jeste li sigurni da želite izbrisati sadržaj ove izmjene iz historije?
         deleteSuccessMessage:       Sadržaj uređivanja izbrisan je.
@@ -14,7 +14,7 @@ the-turk-diff:
             displayMode:            Display Mode (HTML)
             customHTML:             Custom view without line numbers
             tabularHTML:            Tabular view with line numbers
-            renderMode:             Render Mode
+            renderMode:             Render Mod
             inline:                 Line by Line (HTML)
             sideBySide:             Side by Side (HTML)
             neighborLines:          Neighbor Lines
@@ -27,6 +27,8 @@ the-turk-diff:
             charLevel:              Char-level
             separateBlock:          Show a separator between different diff hunks in HTML renderers
             notice:                 Changes in <strong>Neighbor Lines</strong> setting won't affect the old diffs which were calculated before.
+            enableSyncScroll:       Omogući sinkronizirano pomicanje za bočni render
+            allowSwitch:            Dopustite korisnicima da prelaze između načina prikazivanja
         permissions:
             viewEditHistory:        Vidjeti historiju uređivanja
             deleteEditHistory:      Izbrišite druge historije uređivanja
