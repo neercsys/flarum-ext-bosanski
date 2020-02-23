@@ -1,9 +1,11 @@
 fof-reactions:
   forum:
+    disabled-reaction: Ne možete trenutno koristiti ovu reakciju. Osvježite stranicu
     warning: Vaša reakcija je pretvorena
     notification: '{username} je reagirao {reaction} na vaš post'
     settings:
         notify_post_reacted_label: Neko reagira na jedan moj post
+    reacting-own-post: You cannot react to your own post
 
   admin:
     permissions:
@@ -18,6 +20,7 @@ fof-reactions:
         reactions: Trenutne reakcije
         Helptext: Unesite ime (identifikator) emojija ili font-awesome fonta i odaberite vrstu koju želite.
         help:
+          display: Display
           identifier: Identifikator
 
       convert:
