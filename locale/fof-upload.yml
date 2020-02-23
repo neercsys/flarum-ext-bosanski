@@ -67,6 +67,7 @@ fof-upload:
         Prikazuje kompletnu sliku linijski. Nema funkcionalnosti za preuzimanje, ne prikupljaju se statistike i zanemaruje se hot link zaštita.
       image_description: |
         Prikazuje sličicu slike i prenosi se proxyjem putem php-a. Omogućuje prikupljanja statistika i hot link zaštite.
+    upload_methods:
       aws-s3: Amazon S3
       imgur: Imgur
       local: Local
