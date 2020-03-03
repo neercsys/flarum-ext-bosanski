@@ -58,7 +58,8 @@ fof-byobu:
             view_private_discussions-when-flagged: Pogledajte privatne diskusije drugih korisnika ako su označene
 
         settings:
-            nothing_here: Ovdje još nema šta vidjeti
+            use_tag_slug: Navedite slug oznake kako biste natjerali na sve privatne diskusije
+            use_tag_slug_help: Ostavite prazno kako biste korisnicima omogućili odabir vlastite oznake, odnosi se samo na novo kreirane privatne diskusije
 
     notifications:
         private_discussion_created:
