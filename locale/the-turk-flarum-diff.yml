@@ -4,15 +4,15 @@ the-turk-diff:
         revisionInfo:               "Uređivano {revisionCount} puta, najnovije na vrhu|Uređivano {revisionCount} puta, najnovije na vrhu"
         emptyText:                  Nema revizija
         confirmDelete:              Jeste li sigurni da želite izbrisati sadržaj ove izmjene iz historije?
-        confirmRollback:            Are you sure you want to rollback to this revision? Edit's contents after this revision will be deleted permanently.
+        confirmRollback:            Jeste li sigurni da želite povratak na ovu reviziju? Sadržaj uređivanja nakon ove revizije trajno će se izbrisati.
         deleteSuccessMessage:       Sadržaj uređivanja izbrisan je.
-        deleteErrorMessage:         Deletion of edit's contents failed.
-        rollbackSuccessMessage:     Your changes were reverted.
-        rollbackErrorMessage:       Reverting of changes failed.
+        deleteErrorMessage:         Brisanje sadržaja uređivanja nije uspjelo.
+        rollbackSuccessMessage:     Vaše promjene su vraćene.
+        rollbackErrorMessage:       Vraćanje promjena nije uspjelo.
         deletedText:                (deleted)
         deletedTooltip:             "{username} obrisao je ovaj sadržaj {ago}"
-        optionsButton:              Options
-        rollbackButton:             Rollback to this revision
+        optionsButton:              Opcije
+        rollbackButton:             Vrati nazad ovu reviziju
         noDiff:
     admin:
         settings:
