@@ -4,31 +4,45 @@ the-turk-diff:
         revisionInfo:               "Uređivano {revisionCount} puta, najnovije na vrhu|Uređivano {revisionCount} puta, najnovije na vrhu"
         emptyText:                  Nema revizija
         confirmDelete:              Jeste li sigurni da želite izbrisati sadržaj ove izmjene iz historije?
+        confirmRollback:            Are you sure you want to rollback to this revision? Edit's contents after this revision will be deleted permanently.
         deleteSuccessMessage:       Sadržaj uređivanja izbrisan je.
         deleteErrorMessage:         Deletion of edit's contents failed.
+        rollbackSuccessMessage:     Your changes were reverted.
+        rollbackErrorMessage:       Reverting of changes failed.
         deletedText:                (deleted)
         deletedTooltip:             "{username} obrisao je ovaj sadržaj {ago}"
+        optionsButton:              Options
+        rollbackButton:             Rollback to this revision
+        noDiff:
     admin:
         settings:
-            title:                  Diff Settings
+            title:                  Diff Postavke
             displayMode:            Display Mode (HTML)
-            customHTML:             Custom view without line numbers
-            tabularHTML:            Tabular view with line numbers
+            customHTML:             Prilagođeni prikaz bez brojeva linija
+            tabularHTML:            Tabelarni prikaz s brojevima linija
             renderMode:             Render Mod
             inline:                 Line by Line (HTML)
             sideBySide:             Side by Side (HTML)
-            neighborLines:          Neighbor Lines
-            neighborLinesHelp:      Specify the neighbor line count that you want to show.
+            combined:               Kombinirano (HTML)
+            neighborLines:          Susjedne linije
+            neighborLinesHelp:      Navedite broj susjednih linija koje želite prikazati.
             onlyUnsigned:           Only <strong>unsigned integers</strong> are allowed!
+            usePoint:               Use <strong>point</strong> as decimal seperator for float values.
             detailLevel:            Detail Level
             noneLevel:              None-level
             lineLevel:              Line-level
             wordLevel:              Word-level
             charLevel:              Char-level
             separateBlock:          Show a separator between different diff hunks in HTML renderers
-            notice:                 Changes in <strong>Neighbor Lines</strong> setting won't affect the old diffs which were calculated before.
             enableSyncScroll:       Omogući sinkronizirano pomicanje za bočni render
             allowSwitch:            Dopustite korisnicima da prelaze između načina prikazivanja
+            mainPostOnly:           Store main post's revisions only
+            dbOptimisation:         Database Optimisation
+            archiveOlds:            Archive old revisions
+            archiveOldsInfo:        If <strong>x ≥ A</strong>, first <strong>y=mx+b</strong> revisions for the post will be stored as merged & compressed. The <strong>x</strong> refers to post's revision count. Float values of <strong>y</strong> will be rounded to the next lowest integer value.
+            useCrons:               Use crons to archive old revisions
+            useCronsHelp:           You must add Cron entry to your server to make this option work. It'll work weekly on sundays at 02:00 AM. If you disable this option and enable above, all of the post's revisions will be scanned for archiving when the related post is revised.
+            archiveInfo:            Keep in mind that you can disable both options and run <code>php flarum diff:archive</code> command to archive old revisions manually.
         permissions:
             viewEditHistory:        Vidjeti historiju uređivanja
             deleteEditHistory:      Izbrišite druge historije uređivanja
