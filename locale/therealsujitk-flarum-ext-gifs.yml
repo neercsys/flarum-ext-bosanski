@@ -1,0 +1,12 @@
+therealsujitk:
+  forum:
+    gifs:
+      label: 'Ubaci GIF'
+      title: 'Odaberi GIF'
+      searchbar: 'Pretraži GIF'
+      loading: 'Učitavanje...'
+      noresults: 'Nema rezultata'
+  admin:
+    gifs:
+      title: 'GIF API Settings'
+      giphyAPIkey: 'Giphy API Key'
