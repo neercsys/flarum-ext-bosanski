@@ -8,7 +8,7 @@ clarkwinkelmann-who-read:
             show: Prikaži {count} više
             info: Još {count} više
         footer:
-            read-this-post: "{0} Nitko nije čitao ovaj post|{1} Jedan je korisnik pročitao ovaj post|]1,Inf] {count} korisnika je pročitalo ovaj post"
+            read-this-post: "{0} Nitko nije čitao ovau objavu|{1} Jedan je korisnik pročitao ovau objavu|]1,Inf] {count} korisnika je pročitalo ovau objavu"
             read-no-further: "{0} Svi su proćitali dalje|{1} Jedan korisnik nije čitao dalje|]1,Inf] {count} nije čitalo dalje"
             read-to-end: "{0} Niko nije pročitao do kraja|{1} Jedan korisnik je pročitao do kraja|]1,Inf] {count} korisnika je pročitalo do kraja"
         controls:
@@ -20,9 +20,9 @@ clarkwinkelmann-who-read:
             unread: Označeno kao nepročitano
         modal:
             title: Čitatelji
-            up-to-this-post: Korisnici koji su pročitali ovaj post
-            past-this-post: Korisnici koji su čitali ovaj post
-            to-the-end: Korisnici koji su čitali do kraja
+            up-to-this-post: Korisnici koji su pročitali sve do ove objave
+            past-this-post: Korisnici koji su pročitali i prošle objave
+            to-the-end: Korisnici koji su pročitali do kraja
             behind: Korisnici koji nisu pročitali do kraja
 
     admin:
@@ -36,9 +36,9 @@ clarkwinkelmann-who-read:
             title: Ko čita postavke
             show-in-discussion-list: Pokažite čitatelje na popisu diskusija
             show-in-hero: Pokažite čitatelje u diskusijama (hero)
-            show-between-posts: Prikaži status čitanja između postova
-            show-count-of-readers-who-stopped: Prikažite broj korisnika koji su prestali čitati umjesto ukupnog čitanja između postova
-            hide-when-behind: U potpunosti sakrijte korisnika ako stoji iza tolikih postova
+            show-between-posts: Prikaži status čitanja između objava
+            show-count-of-readers-who-stopped: Prikažite broj korisnika koji su prestali čitati umjesto ukupnog čitanja između objava
+            hide-when-behind: U potpunosti sakrijte korisnika ako stoji iza tolikih objava
             max-visible: Maksimalni broj korisnika za prikazivanje prije "pročitajte više"
             unread-icon: Ikona za nepročitanu značku
             only-groups: Prikaži samo status čitanja korisnika koji pripadaju tim skupinama
