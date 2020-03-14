@@ -20,8 +20,8 @@ clarkwinkelmann-who-read:
             unread: Označeno kao nepročitano
         modal:
             title: Čitatelji
-            up-to-this-post: Korisnici koji su čitali ovu objavu
-            past-this-post: Korisnici koji su pročitali i prošle objave
+            up-to-this-post: Korisnici koji su pročitali sve do ove objave
+            past-this-post: Korisnici koji su pročitali ovu objavu
             to-the-end: Korisnici koji su pročitali do kraja
             behind: Korisnici koji nisu pročitali do kraja
 
