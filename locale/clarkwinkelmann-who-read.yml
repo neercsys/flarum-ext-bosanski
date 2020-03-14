@@ -8,7 +8,7 @@ clarkwinkelmann-who-read:
             show: Prikaži {count} više
             info: Još {count} više
         footer:
-            read-this-post: "{0} Nitko nije čitao ovau objavu|{1} Jedan je korisnik pročitao ovau objavu|]1,Inf] {count} korisnika je pročitalo ovau objavu"
+            read-this-post: "{0} Nitko nije čitao ovu objavu|{1} Jedan je korisnik pročitao ovu objavu|]1,Inf] {count} korisnika je pročitalo ovu objavu"
             read-no-further: "{0} Svi su proćitali dalje|{1} Jedan korisnik nije čitao dalje|]1,Inf] {count} nije čitalo dalje"
             read-to-end: "{0} Niko nije pročitao do kraja|{1} Jedan korisnik je pročitao do kraja|]1,Inf] {count} korisnika je pročitalo do kraja"
         controls:
@@ -20,7 +20,7 @@ clarkwinkelmann-who-read:
             unread: Označeno kao nepročitano
         modal:
             title: Čitatelji
-            up-to-this-post: Korisnici koji su pročitali sve do ove objave
+            up-to-this-post: Korisnici koji su čitali ovu objavu
             past-this-post: Korisnici koji su pročitali i prošle objave
             to-the-end: Korisnici koji su pročitali do kraja
             behind: Korisnici koji nisu pročitali do kraja
