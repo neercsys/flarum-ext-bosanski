@@ -20,10 +20,11 @@ fof-best-answer:
     best_answer_label: postavljeno od <a>{username}</a>
 
     notification:
+      best_answer_in_discussion: "{username} je u ovoj diskusiji postavio/la najbolji odgovor"
       content: Molimo odaberite najbolji odgovor ako je na vaše pitanje odgovoreno
       awarded: Vaš je odgovor postavljen kao najbolji odgovor od strane {username}
       awarded_email: Vaš je post postavljen kao najbolji odgovor od strane korisnika
       select_email_title: Jeste li uspjeli riješiti svoj problem?
-      
       preferences:
         awarded_best_answer: Kad neko postavi moj post kao najbolji odgovor
+        best_answer_in_discussion: Kada se u diskusiji u kojoj sam sudjelovao/la dobije najbolji odgovor
