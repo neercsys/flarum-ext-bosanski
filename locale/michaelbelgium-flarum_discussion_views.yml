@@ -16,7 +16,8 @@ flarum_discussion_views:
       title: Najnoviji gledatelji
   admin:
       permissions:
-        reset_views_label: Postavi broj pregleda diskusije
+        can_reset_views: Resetovat preglede diskusije
+        can_view_number: Pogledati broj pregleda diskusije	
       settings:
         title: Postavke pregleda diskusija
         track_unique: Pratite jedinstvene poglede
