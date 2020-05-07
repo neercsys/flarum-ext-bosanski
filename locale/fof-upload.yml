@@ -80,3 +80,8 @@ fof-upload:
       error: Greška
       loading: Prijenos
       unauthorized: Ne možete preuzimati datoteke
+  api:
+    upload_errors:
+      forbidden_type: Prijenos datoteka ove vrste nije dopušten.
+      unsupported_type: 'Adapter za prijenos ne podržava isporučeni tip mime: {mime}.'
+      could_not_detect_mime: Otkrivanje MIME vrste ove datoteke nije uspjelo. Pokušajte ponovo.
