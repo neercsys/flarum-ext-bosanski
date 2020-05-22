@@ -4,7 +4,7 @@ core:
       popular_button: Popularno
       unpopular_button: Nepopularno
 
-flarum_discussion_views:
+michaelbelgium-discussion-views:
   forum:
     modal_resetviews:
       title: Poništi broj pregleda diskusije
