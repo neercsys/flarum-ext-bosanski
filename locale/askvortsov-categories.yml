@@ -11,11 +11,13 @@ askvortsov-categories:
       parent_remove_description: Hide descriptions for top-level tags?
       parent_remove_stats: Hide stats for top-level tags?
       parent_remove_last_discussion: Hide most recent discussions for top-level tags?
+      small_forum_optimized: Optimizirati za male forume? To će dati tačniji broj rasprava/postova, ali usporit će srednje i velike forume.
     headings:
       nav: Navigacija
       layout: Layout
       parent_display: Parent Category Display
       child_display: Child Category Display
+      performance: Performanse
     title: Postavke kategorija
   forum:
     categories:
