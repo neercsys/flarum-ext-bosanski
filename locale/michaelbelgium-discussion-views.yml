@@ -8,7 +8,7 @@ michaelbelgium-discussion-views:
   forum:
     modal_resetviews:
       title: Poništi broj pregleda diskusije
-      submit: Da, ukloni sve
+      submit_button: Da, ukloni sve
       label: Ovo će ukloniti {count} pregleda na ovu diskusiju. Nastaviti?|Ovo će ukloniti {count} pregleda na ovoj diskusiji. Nastaviti?
     discussion_controls:
       resetviews_button: Resetuj preglede
@@ -16,12 +16,12 @@ michaelbelgium-discussion-views:
       title: Najnoviji gledatelji
   admin:
       permissions:
-        can_reset_views: Resetovat preglede diskusije
-        can_view_number: Pogledati broj pregleda diskusije	
+        reset_views_label: Resetovat preglede diskusije
+        view_number_label: Pogledati broj pregleda diskusije	
       settings:
         title: Postavke pregleda diskusija
-        track_unique: Pratite jedinstvene poglede
-        abbr_numbers: Skraćeni brojevi prikaza
-        show_filter: Omogući (ne) popularno polje sortiranja
-        max_viewcount: Najveći broj stavki za prikaz
-        show_viewlist: Omogući popis gledatelja
+        track_unique_label: Pratite jedinstvene poglede
+        abbr_numbers_label: Skraćeni brojevi prikaza
+        show_filter_label: Omogući (ne) popularno polje sortiranja
+        max_viewcount_label: Najveći broj stavki za prikaz
+        show_viewlist_label: Omogući popis gledatelja
