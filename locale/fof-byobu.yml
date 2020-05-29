@@ -53,6 +53,8 @@ fof-byobu:
             pd_user_left_text: "{username} napusio/la privatnu diskusiju"
             pd_added_text: "{username} dodao/la vas je u privatnu diskusiju"
             pd_added_label: "Neko me dodaje u postojeću privatnu diskusiju"
+            pd_made_public_label: "Privatna diskusija postaje javna"
+            pd_made_public_text: "{username} pravi ovu diskusiju javnu"
             
         confirm:
             make_public: Time će ova privatna diskusija postati vidljiva svima. Razmislite je li ovo ispravna radnja prije nego što nastavite.
@@ -80,3 +82,5 @@ fof-byobu:
             title: "[Private Discussion] korisnik je napustio diskusiju"
         private_discussion_added:
             title: "[Private Discussion] korisnik vas je dodao u privatnu diskusiju"
+        made_public:
+            title: "[Private Discussion] korisnik pravi ovu diskusiju javnu"
