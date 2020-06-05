@@ -35,5 +35,5 @@ fof-drafts:
         drafts_heading: Skice
         draft_autosave_enable: Omogući automatsko spremanje skice?
         draft_autosave_interval_label: Interval automatskog spremanja (sekunde)
-        draft_autosave_interval_button: Interval ažuriranja
+        draft_autosave_interval_button: Ažuriraj interval
         draft_autosave_interval_invalid: Interval mora biti cijeli broj veći od 4.
