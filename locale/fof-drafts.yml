@@ -6,6 +6,8 @@ fof-drafts:
     settings:
       title: Postavke skica
       enable_scheduled_drafts: Uključi zakazivanje (planiranje) skica
+      schedule_on_one_server: Use 'onOneServer()' directive for the task scheduler (requires Redis/Memcache)
+      schedule_log_output: Append scheduler output to log storage
   console:
     scheduled_drafts_disabled: Planiranje skice trenutno je onemogućeni u postavkama.
   forum:
