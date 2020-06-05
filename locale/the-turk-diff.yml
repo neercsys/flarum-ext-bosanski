@@ -97,11 +97,11 @@ the-turk-diff:
             useCronsHelp:             You must add Cron entry to your server to make this option work. It'll work weekly on sundays at 02:00 AM. If you disable this option and enable above, all of the post's revisions will be scanned for archiving when the related post is revised.
             archiveInfo:              Keep in mind that you can disable both options and run <code>php flarum diff:archive</code> command to archive old revisions manually.
         permissions:
-            viewEditHistory:          View edit history
-            deleteEditHistory:        Delete others edit history
-            selfDeleteEditHistory:    Delete own edit history
-            rollbackEditHistory:      Rollback others edit history
-            selfRollbackEditHistory:  Rollback own edit history
+            viewEditHistory:          Pogledajte historiju uređivanja
+            deleteEditHistory:        Izbrišite drugima historiju uređivanja
+            selfDeleteEditHistory:    Izbrišite vlastitu historiju uređivanja
+            rollbackEditHistory:      Povrati historiju uređivanja ostalima
+            selfRollbackEditHistory:  Povrati vlastitu historiju uređivanja
     ref:
         originalContent:              originalni sadržaj
         currentContent:               trenutni sadržaj
