@@ -22,14 +22,14 @@ fof-nightmode:
             settings:
                 heading: Teme
                 description: Odaberite temu boje koju želite koristiti na forumu.
-                description2: This theme will be linked to your account and applies to all your devices unless you toggle on the switch below for per device settings.
-                device_specific_setting_checkbox: Use per device settings
-                device_specific_setting_checkbox_tooltip: Your theme choice will be saved individually for each of your devices.
+                description2: Ova će tema biti povezana s vašim računom i primjenjivat će se na sve vaše uređaje osim ako ne uključite prekidač dolje za postavke uređaja.
+                device_specific_setting_checkbox: Koristite postavke uređaja
+                device_specific_setting_checkbox_tooltip: Vaš izbor teme pohranit će se pojedinačno na svaki vaš uređaj.
                 options:
                     auto: => fof-nightmode.ref.auto
                     day: => fof-nightmode.ref.light
                     night: => fof-nightmode.ref.dark
                 option_descriptions:
-                    auto: Your theme will be automatically selected based on your browser or device settings. For example, if you have dark mode enabled in iOS, the forums will be dark too.
-                    day: The classic experience which you're used to. Loved and tested.
-                    night: You're a bit of a night owl. You watch over the forum at night, while the birds are sleeping and the foxes are hunting. Or you just prefer the darker colours!
+                    auto: Vaša će se tema automatski odabrati na temelju postavki vašeg preglednika ili uređaja. Na primjer, ako vam je omogućen tamni način rada u iOS-u, forumi će također biti tamni.
+                    day: Klasično iskustvo na koje ste navikli. Voljena i testirana.
+                    night: Ti si pomalo noćna sova. Noću bdijete na forumu, dok ptice spavaju i lisice love. Ili više volite tamnije boje!
