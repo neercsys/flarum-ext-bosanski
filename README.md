@@ -6,8 +6,7 @@ Bosnian language for Flarum Extensions
 - v0.37 Current
 
 ### Compatibility:
-- Flarum (Core v0.1.0-beta.14)
-- Min Flarum (Core v0.1.0-beta.9)
+- Min Flarum (Core v0.1.0-beta.14)
 
 ### License
 Released under the MIT License. Please see the LICENSE file.
