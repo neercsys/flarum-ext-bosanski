@@ -16,11 +16,11 @@
         "source": "https://github.com/neercsys/flarum-ext-bosanski"
     },
     "require": {
-        "flarum/core": "^0.1.0-beta.15-dev"
+        "flarum/core": "^0.1.0-beta.14"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.9.x-dev"
+            "dev-master": "0.1.x-dev"
         },
         "flarum-extension": {
             "title": "Bosanski",
